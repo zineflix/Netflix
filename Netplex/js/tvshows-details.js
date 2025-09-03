@@ -175,7 +175,7 @@ const TV_ENDPOINTS = [
   { url: 'https://apimocine.vercel.app/tv/', name: 'Server 8' },
   { url: 'https://vidsrc.wtf/api/3/tv/?id=', name: 'Server 9' },
   { url: 'https://rivestream.org/embed?type=tv&id=', name: 'Server 10' },
-  { url: 'https://player.vidplus.to/embed/tv/', name: 'Server 11 Ads' },
+  { url: 'https://player.vidplus.to/embed/tv/', name: 'Server 11' },
   { url: 'https://player.videasy.net/tv/', name: 'Server 12 Ads' },
   { url: 'https://vidrock.net/tv/', name: 'Server 13 Ads' },  
   { url: 'https://vidfast.pro/tv/', name: 'Server 14 Ads' },
@@ -666,4 +666,5 @@ safeOn(byId('sandbox-toggle'), 'click', () => {
 safeOn(proceedBtn, 'click', disableSandbox);
 safeOn(abortBtn, 'click', () => {
     sandboxWarning.style.display = 'none';
+
 });
