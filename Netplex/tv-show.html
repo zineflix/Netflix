@@ -122,15 +122,23 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </header>
 
 <!-- Floating Message Start-->
-  <div id="floating-message">
-    <h2>🎬Welcome to NETPLEX</h2><br>
-    <h><br>
-        Your tv show marathon starts here. Stream your favorite films anytime, anywhere.<br><br>
-        Grab your popcorn and press play!
-    </h><br>
-    <button onclick="closeMessage()">CLOSE</button>      
+<div id="floating-message">
+  <h2>🎬Welcome to NETPLEX</h2><br>
+  <p>
+    Your movie marathon starts here. Stream your favorite films anytime, anywhere.<br><br>
+    Grab your popcorn and press play!
+  </p><br>
+  <button onclick="closeMessage()">CLOSE</button>      
 </div>
-    <!-- Floating Message End-->
+
+<script>
+function closeMessage() {
+  // Just hide the message
+  document.getElementById("floating-message").style.display = "none";
+}
+</script>
+<!-- Floating Message End-->
+
     
     <!-- Upcoming Movies -->
 <section class="section">
@@ -450,5 +458,6 @@ const firebaseConfig = {
   
 </html>
       
+
 
 
