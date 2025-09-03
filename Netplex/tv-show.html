@@ -130,22 +130,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </h><br>
     <button onclick="closeMessage()">CLOSE</button>      
 </div>
-
-<script>
-function closeMessage() {
-    // Try to open a new tab/window
-    const newWindow = window.open("Link Here", "_blank");
-
-    // Optional: Attempt to move focus away so it stays in background (not guaranteed)
-    if (newWindow) {
-        newWindow.blur();
-        window.focus(); // Refocus the current window
-    }
-
-    // Hide or remove the message
-    document.getElementById("floating-message").style.display = "none";
-}
-</script>
     <!-- Floating Message End-->
     
     <!-- Upcoming Movies -->
@@ -466,4 +450,5 @@ const firebaseConfig = {
   
 </html>
       
+
 
