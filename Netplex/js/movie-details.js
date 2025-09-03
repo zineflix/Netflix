@@ -178,7 +178,7 @@ const MOVIE_ENDPOINTS = [
   { url: 'https://vidsrc.wtf/api/3/movie/?id=', name: 'Server 9' },
   { url: 'https://www.2embed.cc/embed/', name: 'Server 10 Ads' },
   { url: 'https://rivestream.org/embed?type=movie&id=', name: 'Server 11' },
-  { url: 'https://player.vidplus.to/embed/movie/', name: 'Server 12 Ads' },
+  { url: 'https://player.vidplus.to/embed/movie/', name: 'Server 12' },
   { url: 'https://player.videasy.net/movie/', name: 'Server 13 Ads' },
   { url: 'https://vidrock.net/movie/', name: 'Server 14 Ads' },  
   { url: 'https://vidfast.pro/movie/', name: 'Server 15 Ads' },
