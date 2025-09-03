@@ -123,22 +123,24 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <p1 id="banner-description"></p1>
         </div>
       
-<!-- Floating Message Start -->
+<!-- Floating Message Start-->
 <div id="floating-message">
-  <h2>🎥Welcome to NETPLEX🍿</h2><br>
+  <h2>🎬Welcome to NETPLEX</h2><br>
   <p>
-    Your ticket to an endless library of Movies, TV Shows/Series, K-drama and Anime is here.<br><br>
-    Share the fun with your family and friends.
+    Your movie marathon starts here. Stream your favorite films anytime, anywhere.<br><br>
+    Grab your popcorn and press play!
   </p><br>
-  
-  <!-- Removed hidden popunder link -->
-  
-  <!-- Updated close button to just hide the message -->
-  <button onclick="document.getElementById('floating-message').style.display='none'">
-    CLOSE
-  </button>
+  <button onclick="closeMessage()">CLOSE</button>      
 </div>
-<!-- Floating Message End -->
+
+<script>
+function closeMessage() {
+  // Just hide the message
+  document.getElementById("floating-message").style.display = "none";
+}
+</script>
+<!-- Floating Message End-->
+
    
     </header>
 
@@ -451,6 +453,7 @@ document.getElementById("online-widget-header").addEventListener("click", () => 
   
 </html>
       
+
 
 
 
