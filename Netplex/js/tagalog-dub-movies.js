@@ -163,6 +163,7 @@ const TV_SHOW_IDS = [
     135238,  // Gyeongseong Creature
     117378, // Mouse
     43899, // The Bible
+    68814, // Strong Woman Do Bong-Soon
     
     
 ];
@@ -312,7 +313,44 @@ const TV_EPISODES = {
             "Episode 10",
         ]
     },
-    // Add more shows with episode links similarly
+    68814: {
+        links: [
+            "https://drive.google.com/file/d/1mPc1PMbWb3JAZuRxdSgy6wmIT4Ff0pD2/preview",
+            "https://drive.google.com/file/d/1KMBx_YfyG9QMJxlFsSKj41dCjuARWz16/preview",
+            "https://drive.google.com/file/d/1-Q6U-Zw5taPKKL5IBx1WiJ0AqyyaSBKG/preview",
+            "https://drive.google.com/file/d/1m4oQnzx_sMbCGoj3xQrUfilKrFw5cvtU/preview",
+            "https://drive.google.com/file/d/1RPIOVSlbuHITdn5TCkhvihhMeGx5GzbO/preview",
+            "https://drive.google.com/file/d/1y1gd0poT_yVdX299lSubPzHGNcbx8U_k/preview",
+            "https://drive.google.com/file/d/1o2ij2B7ykOm0HcjKAQ-szlT8quBbM5C3/preview",
+            "https://drive.google.com/file/d/1UUcWL33I5seiLugpbXSxDVNo2-9_VgnE/preview",
+            "https://drive.google.com/file/d/1s6427sNEcXzPMt3hmNgeexsaSBa-djRz/preview",
+            "https://drive.google.com/file/d/1DTLgO_bGTlWKjpWGDVuzaew-vbQp70y4/preview",
+            "https://drive.google.com/file/d/1fLy8sx7t2asaFxjSv-QngLgnBRdmfiE8/preview",
+            "https://drive.google.com/file/d/1oHUqZK4GzE688f7CBLRXKKYz6467rD3h/preview",
+            "https://drive.google.com/file/d/1_JfcBppcElSapyxwH-zD4QkiADLiESgt/preview",
+            "https://drive.google.com/file/d/1FVx-47Ysrh03tpk0rjScxhZUbz2SZWNM/preview",
+            "https://drive.google.com/file/d/1f-QqJiNFCh1P8p8l0r_eSQR1bUEoCYvN/preview",
+            "https://drive.google.com/file/d/1exb6Gb-vvqY0r8Ky52yAvdNC-C5w6LJc/preview",
+        ],
+        titles: [
+            "Episode 1",
+            "Episode 2",
+            "Episode 3",
+            "Episode 4",
+            "Episode 5",
+            "Episode 6",
+            "Episode 7",
+            "Episode 8",
+            "Episode 9",
+            "Episode 10",
+            "Episode 11",
+            "Episode 12",
+            "Episode 13",
+            "Episode 14",
+            "Episode 15",
+            "Episode 16",
+        ]
+    },
 };
 
 async function fetchTvShows() {
@@ -446,5 +484,3 @@ document.getElementById("tvFullscreenButton").addEventListener("click", function
     }
 });
 // Fullscreen Button for TV Trailer End //
-
-
