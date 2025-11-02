@@ -40,7 +40,7 @@ const API_KEY = "a1e72fd93ed59f56e6332813b9f8dcae";
         const MOVIE_IDS = [
             18377, 597, 57627, 455714, 9470, 396535, 20453, 1001311, 11770, 41387, 16269, 57663, 
             53658, 570511, 200085, 433945, 184219, 11178, 15859, 158445, 851644, 9056, 10753, 
-            11134, 9404, 11636, 52324, 58233, 219246, 
+            11134, 9404, 11636, 52324, 58233, 219246, 1269208, 75612, 811646,
         ];
         const IMAGE_BASE_URL = "https://image.tmdb.org/t/p/w500";
         const movieGallery = document.getElementById("movieGallery");
@@ -81,6 +81,9 @@ const API_KEY = "a1e72fd93ed59f56e6332813b9f8dcae";
             11636: "https://short.icu/b4IONWrDS",
             52324: "//ok.ru/videoembed/9671939918414?nochat=1",
             58233: "//ok.ru/videoembed/9643975313998?nochat=1",
+            1269208: "https://drive.google.com/file/d/1fbECy9qUZg1Jc-21EReRWk3rZzr82Ahk/preview",
+			75612: "https://drive.google.com/file/d/1JS4jt9FXtjS0zuIE9Wruzq5kX6DC9ABf/preview",
+			811646: "https://drive.google.com/file/d/1--IpZfNaFtjyOCvqLdXDoUMN_I1IS-cg/preview",
         };
 
 async function fetchMovies() {
@@ -164,6 +167,11 @@ const TV_SHOW_IDS = [
     117378, // Mouse
     43899, // The Bible
     68814, // Strong Woman Do Bong-Soon
+    119051, // Wednesday (2022)
+	66776, // Love O2O (2016)
+	255779, // Bet (2025)
+	112836, // Money Heist: Korea - Joint Economic Area (2022)
+	99966, // All of Us Are Dead (2022)
     
     
 ];
@@ -349,6 +357,185 @@ const TV_EPISODES = {
             "Episode 14",
             "Episode 15",
             "Episode 16",
+        ]
+    },
+    119051: {
+        links: [
+            "https://mxdrop.to/e/kn7kp7pkskol4x",
+            "https://mxdrop.to/e/1vr0mzelfw3p1g",
+            "https://mxdrop.to/e/6qkjlv10bqr41v",
+            "https://mxdrop.to/e/dqpv1pvnuvdjz3",
+            "https://mxdrop.to/e/dqpv1pxkaq8qxv",
+            "https://mxdrop.to/e/pk1xmz8kagnr7x",
+            "https://mxdrop.to/e/j90733v8fplnp6",
+            "https://mxdrop.to/e/rwzmddxka8n801",
+	        "https://ico3c.com/bkg/vu9wfs8uis2n",
+	        "https://ico3c.com/bkg/clkaqce8m5s1",
+	        "https://ico3c.com/bkg/wary01wvkjjg",
+	        "https://ico3c.com/bkg/k3ii4plllli2",
+        ],
+        titles: [
+            "Season 1 Episode 1",
+            "Season 1 Episode 2",
+            "Season 1 Episode 3",
+            "Season 1 Episode 4",
+            "Season 1 Episode 5",
+            "Season 1 Episode 6",
+            "Season 1 Episode 7",
+            "Season 1 Episode 8",
+            "Season 2 Episode 1",
+            "Season 2 Episode 2",
+            "Season 2 Episode 3",
+            "Season 2 Episode 4",
+            "Season 2 Episode 5(Soon)",
+            "Season 2 Episode 6(Soon)",
+            "Season 2 Episode 7(Soon)",
+            "Season 2 Episode 8(Soon)",
+        ]
+    },
+	66776: {
+        links: [
+            "https://drive.google.com/file/d/1-00qYD9BcJRmGRZgKl49YGe5tOqh6zbF/preview",
+            "https://drive.google.com/file/d/1-0lhHRy0wu_16WgQaKqBcOl5KDYrclkD/preview",
+            "https://drive.google.com/file/d/1-Idxa1_A-EmF2dEaVtW8zxfPS3Ak2I1t/preview",
+            "https://drive.google.com/file/d/1-O6mxiWYWBu2vORbchLJGjZ4gdRDKXXb/preview",
+            "https://drive.google.com/file/d/1-CEcNwFVrnBMfRNWpawQJuBvAVA3LSqC/preview",
+            "https://drive.google.com/file/d/1-FxH4Vmjlp-rSR_2Y0jgXrtdShqBo_jM/preview",
+            "https://drive.google.com/file/d/1-HozFQjRW26ArPeldIbUJfXHl6Yu_Swe/preview",
+            "https://drive.google.com/file/d/1-JXTPFV2lrBBxs9WlPcP_RXj2z1gBkgh/preview",
+	    "https://drive.google.com/file/d/1-As0mGo6COFVgp2hHq94gdOLgN3q2EDX/preview",
+	    "https://drive.google.com/file/d/1-AyLArhlhrWcwxD05EVrDUbmmjfADi5u/preview",
+	    "https://drive.google.com/file/d/10so3ylSNPs8-Sg27x_otMh4E_gudnMjz/preview",
+	    "https://drive.google.com/file/d/11pbW-Hm9IktiQyvD9Rm0XijOPrwFV0Zs/preview",
+	    "https://drive.google.com/file/d/10aMEYqPSZ-sPOL1QBPJuKwX_ODNlboa2/preview",
+	    "https://drive.google.com/file/d/10cDhxptdbSXpKPgT_g9dy7tVWYn7STxw/preview",
+	    "https://drive.google.com/file/d/10eA6XtGLlJcDjoyJpgS7jwFBJNA2wO5q/preview",
+	    "https://drive.google.com/file/d/10eHSBAY0wLgesgsH5GC1Ak30qrJNrqDz/preview",
+	    "https://drive.google.com/file/d/11PW2g-xE0Vwk7q09lmcdCEDOexKhDPmX/preview",
+	    "https://drive.google.com/file/d/11RBlbL8xoNnHOBrQRXQTlh7h8A_qCTBX/preview",
+	    "https://drive.google.com/file/d/11U0tAB6F8e7v9ripQLoel6KpewvaJWEq/preview",
+	    "https://drive.google.com/file/d/11UDx85MNV2pIC7roNQN9G-G3d9bQ3bks/preview",
+	    "https://drive.google.com/file/d/1-8OLXP1NVsk__w02TjO0_Bn-AMe8qEVL/preview",
+            "https://drive.google.com/file/d/1-95ola9cdm_Wdp7rlfSq10cg1y6QtG0X/preview",
+            "https://drive.google.com/file/d/1-DeaQetLhI5DBRplM1esgHby13GcqQHJ/preview",
+            "https://drive.google.com/file/d/1-WLeiAFu8moC4yUGjKLtpF4mWHQ5i7aZ/preview",
+            "https://drive.google.com/file/d/1-9sJB8q4do2Tzu9x5osORqEiRPTD5pU8/preview",
+            "https://drive.google.com/file/d/1-H92eL74dwnuiRXX5DiAmhMrFr6FHR1E/preview",
+            "https://drive.google.com/file/d/1-IsbCqatIo8BP2EhfdeoIVBsq4UUEspH/preview",
+            "https://drive.google.com/file/d/1-T6tVfDPAvaL8DXCzEpnJM2kjZKdFZS-/preview",
+            "https://drive.google.com/file/d/1-FCILrQER3CyXSZo61kHIPlQNJH_c7dR/preview",
+            "https://drive.google.com/file/d/1-Ijg-EhcwfQAfFHCUlq3vQw-KAR2AeR3/preview",
+        ],
+        titles: [
+            "Season 1 Episode 1",
+            "Season 1 Episode 2",
+            "Season 1 Episode 3",
+            "Season 1 Episode 4",
+            "Season 1 Episode 5",
+            "Season 1 Episode 6",
+            "Season 1 Episode 7",
+            "Season 1 Episode 8",
+            "Season 1 Episode 9",
+            "Season 1 Episode 10",
+            "Season 1 Episode 11",
+            "Season 1 Episode 12",
+            "Season 1 Episode 13",
+            "Season 1 Episode 14",
+            "Season 1 Episode 15",
+            "Season 1 Episode 16",
+            "Season 1 Episode 17",
+            "Season 1 Episode 18",
+            "Season 1 Episode 19",
+            "Season 1 Episode 20",
+            "Season 1 Episode 21",
+            "Season 1 Episode 22",
+            "Season 1 Episode 23",
+            "Season 1 Episode 24",
+            "Season 1 Episode 25",
+            "Season 1 Episode 26",
+            "Season 1 Episode 27",
+            "Season 1 Episode 28",
+            "Season 1 Episode 29",
+            "Season 1 Episode 30",
+
+        ]
+    },
+	255779: {
+        links: [
+            "https://drive.google.com/file/d/1x0NS3sTlKPOMvcP6Q3cG8bLEKHs1ftwZ/preview",
+            "https://drive.google.com/file/d/1RFqv0aIBby4VQTJTm0na1T5Wca1_7Y0-/preview",
+            "https://drive.google.com/file/d/1mRmIRjcTwWygak6eBVVr7l3sgUTUGTU8/preview",
+            "https://drive.google.com/file/d/1-FHnc386YHty9p38FuRjj-hh_E8zQ41g/preview",
+            "https://drive.google.com/file/d/1FLIAUPIn0W8u4lRUlDrRoGLWoQHT-x-F/preview",
+            "https://drive.google.com/file/d/1y1-aAzIEhoxqxh-e2dE6MfVgo9gVrNHq/preview",
+            "https://drive.google.com/file/d/114aSwH2ASll2yrRKjYOB1WgyVbGGz6N2/preview",
+            "https://drive.google.com/file/d/1JSN0tFkx6Bl7gHD1bnDZBhykwnfQ6BLs/preview",
+            "https://drive.google.com/file/d/1RHCTXC6qBq-pKSTGKW4eVssQtoxHfn_t/preview",
+            "https://drive.google.com/file/d/1KYL-Wb36Tds4FNMwBo-9cRCExBLZX0sV/preview",
+
+        ],
+        titles: [
+            "Season 1 Episode 1",
+            "Season 1 Episode 2",
+            "Season 1 Episode 3",
+            "Season 1 Episode 4",
+            "Season 1 Episode 5",
+            "Season 1 Episode 6",
+            "Season 1 Episode 7",
+            "Season 1 Episode 8",
+            "Season 1 Episode 9",
+            "Season 1 Episode 10",
+
+        ]
+    },
+	112836: {
+        links: [
+            "https://drive.google.com/file/d/11TOlTDkI9uYVKSe_9Y8NgbSk8LAqpjKQ/preview",
+            "https://drive.google.com/file/d/12bEqQWr3TUFBzHIpptuPGXfjav0fPegw/preview",
+            "https://drive.google.com/file/d/13CpN0ntYbkNvFXMLAyFpqFukO_3bUwot/preview",
+            "https://drive.google.com/file/d/15JKQxizL1nX1Ln19IS5mS3vq5Me-af_M/preview",
+            "https://drive.google.com/file/d/15M4LdTGUsLg9IZFJmcT7M1RZuSDzi0NL/preview",
+            "https://drive.google.com/file/d/16rw3CcGgtHgArkiQHFubrR_qTFjxHw9q/preview",
+
+        ],
+        titles: [
+            "Episode 1",
+            "Episode 2",
+            "Episode 3",
+            "Episode 4",
+            "Episode 5",
+            "Episode 6",
+
+        ]
+    },
+	99966: {
+        links: [
+            "https://drive.google.com/file/d/1hnGgota30kTY-zkCDIHCtMJYw2N3zs7S/preview",
+            "https://drive.google.com/file/d/19pbUbtlY1G3iXRoo6HqFeB3pX9upBLzb/preview",
+            "https://drive.google.com/file/d/1kaX-ElIJsxSuyK2PppTzbvKTsobJ0XDw/preview",
+            "https://drive.google.com/file/d/1uOWoICat8RN1agGwsBzpV4VMpi0fKMnF/preview",
+            "https://drive.google.com/file/d/15gJCABlOhDs9NSU7AbUeTAxNCNZob_9e/preview",
+            "https://drive.google.com/file/d/1wSii8PV69wSOuoxwfrR12_T06lO8EX8G/preview",
+	   	    "https://drive.google.com/file/d/1MDXwjrOitwKTj_82PonRwl5FWbLj9TyT/preview",
+	        "https://drive.google.com/file/d/1ActvH4O60sZb5DGdVKxa5pLgdGkl-vqr/preview",
+	        "https://drive.google.com/file/d/1Arw292ynbzrnYoS_m5FR3kMYtxWNMRTt/preview",
+	        "https://drive.google.com/file/d/1u6ONazARwEfU1LjzFJ1nAjoYXQckMpLm/preview",
+	        "https://drive.google.com/file/d/1ZcIP0EAGRkFr5TTSrLno8i9RDzIQm_RE/preview",
+	        "https://drive.google.com/file/d/1lIbFNZGdvnHxxCvOJC365zFexkXke6dp/preview",
+        ],
+        titles: [
+            "Season 1 Episode 1",
+            "Season 1 Episode 2",
+            "Season 1 Episode 3",
+            "Season 1 Episode 4",
+            "Season 1 Episode 5",
+            "Season 1 Episode 6",
+            "Season 1 Episode 7",
+            "Season 1 Episode 8",
+            "Season 1 Episode 9",
+            "Season 1 Episode 10",
+            "Season 1 Episode 11",
+            "Season 1 Episode 12",
         ]
     },
 };
